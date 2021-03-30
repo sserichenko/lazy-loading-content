@@ -1,0 +1,103 @@
+body{
+    position: relative;
+}
+.main {
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.header{
+    position: static;
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: lightslategray;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 10px;
+}
+
+._loading-icon{
+    background-image: url(../images/Spinner-5.gif);
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    background-position: center;
+}
+
+._info-loading-icon{
+    background-image: url(../images/Spinner-5.gif);
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.page-section{
+    position: relative;
+    padding: 20px;
+    text-align: left;
+}
+.page-section__title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+.page-section__list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page-section__item{
+    background-position: center;
+    width: 30%;
+    height: 170px;
+    text-align: center;
+}
+
+.page-section__item:nth-child(-n + 3){
+    margin-bottom: 30px;
+}
+
+.page-section__img{
+    /* display: block; */
+}
+
+.map-wrapper{
+    width: 100%;
+    height: 480px;
+}
+
+.page-section-1{
+    background-color: lightblue; 
+}
+.page-section-2{
+    background-color: #ffffff; 
+}
+.page-section-3{
+    background-color: lightslategray; 
+}
+.page-section-4{
+    background-color: lightgray; 
+}
